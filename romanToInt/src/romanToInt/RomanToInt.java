@@ -30,6 +30,7 @@ public class RomanToInt {
 	}
 	//main method
 	public static void main(String[] args) {
+		System.out.println("Enter roman numeral : ");
 		 Scanner sc = new Scanner(System.in);
 		 String roman = sc.nextLine();
 		RomanToInt obj = new RomanToInt();
